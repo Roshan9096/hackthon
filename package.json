@@ -4,11 +4,11 @@
   "description": "Inventory Management System API",
   "main": "index.js",
   "scripts": {
-    "test": "npm run index.js"
+    "start": "node ./src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Roshan9096/Hackathon.git"
+    "url": "git+https://github.com/Roshan9096/hackathon.git"
   },
   "keywords": [
     "js",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Roshan9096/Hackathon#readme",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "mongoose": "^8.19.0"
   }
